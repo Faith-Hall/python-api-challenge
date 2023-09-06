@@ -46,4 +46,9 @@ In the first part of weatherpy I created plots to display the relationship betwe
 ![image](https://github.com/Faith-Hall/python-api-challenge/assets/135525815/2fd16f44-4b63-4c4a-b6eb-e161ae44534c)
 ---
 ## VacationPy
-
+For VacationPy I used a Geoapify API key to display a map visualization for every city in the city_data_df. Then I narrowed down the data to US cities that have zero cloudiness and a wind speed less than 4 m/s.
+```
+city_data_df = city_data_df[(city_data_df["Cloudiness"] == 0)]
+city_data_df = city_data_df[(city_data_df["Country"] == "US")]
+city_data_df = city_data_df[(city_data_df["Wind Speed"] < 4)]
+```
