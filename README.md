@@ -15,4 +15,4 @@ In the first part of weatherpy I created plots to display the relationship betwe
 ### Latitude vs. Wind Speed
 ![image](https://github.com/Faith-Hall/python-api-challenge/assets/135525815/45136f5b-8199-4a77-871e-7b9ffcb69423)
 ----
-## For the second part of weatherpy I computed liner regression for each relationship
+#### For the second part of weatherpy I computed liner regression for each relationship
