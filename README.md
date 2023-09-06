@@ -52,3 +52,5 @@ city_data_df = city_data_df[(city_data_df["Cloudiness"] == 0)]
 city_data_df = city_data_df[(city_data_df["Country"] == "US")]
 city_data_df = city_data_df[(city_data_df["Wind Speed"] < 4)]
 ```
+Then I created a new dataframe to store the city, country, coordinates, and humidity.  After that, I used the Geoapify API to find the first hotel within 10,000 meters of my coordinates. 
+![image](https://github.com/Faith-Hall/python-api-challenge/assets/135525815/6e67a208-4f65-453c-8beb-15c47bd3479c)
